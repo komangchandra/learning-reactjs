@@ -1,10 +1,17 @@
+import { Container } from "react-bootstrap";
+
+import CardProduc from "../components/CardProduc";
 import NavigationBar from "../components/NavigationBar";
 
 const AboutPage = () => {
+  const containerStyle = {
+    padding: "5px 30px",
+  };
+
   return (
-    <div>
+    <div style={containerStyle}>
       <NavigationBar />
-      <h1>Halaman About</h1>
+      <CardProduc />
     </div>
   );
 };
